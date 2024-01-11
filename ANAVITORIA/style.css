@@ -1,0 +1,313 @@
+body, h1, h2, p, ul, li, a{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+/* header{
+  position: fixed;
+  width: 100%;
+} */
+
+h1{
+  color: #9E5A41;
+  font-family: 'Aboreto', Helvetica, Arial, sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+/* COPYRIGHTS - HEADER */
+.copyrights-background{
+  background: #342828;
+  color: #796362;
+}
+
+.copyrights{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.copyrights p{
+  margin: 0 10px 5px 10px;
+}
+
+
+/* MENU - HEADER */
+.menu-background{
+  background: #4C3A39;
+}
+
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a{
+  color: #CEC7C0;
+}
+
+.menu-logotipo a{
+  font-size: 2.25em;
+  font-family: 'Aboreto', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #F9B757;
+}
+
+.menu-navigation ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-navigation a{
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-navigation a:hover{
+  color: #F9B757;
+}
+
+
+/* PRIMEIRA BORDA AMARELA - PÓS HEADER */
+.header-border{
+  padding: 20px;
+  border-bottom: 2px solid #F9B757;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/* SOBRE - ABOUT */
+.about{
+  padding: 120px 50px;
+  border-bottom: 2px solid #F9B757;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-information{
+ flex: 2 1 300px;
+}
+
+.about-information h1{
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.about-information p{
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #342828;
+}
+
+.about-image{
+  margin: 0 10px;
+}
+
+/* ALBUMS */
+.music-albums{
+  max-width: 960px;
+  margin: 140px auto;
+}
+
+.music-albums h1{
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.music-albums-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.music-albums-item{
+  flex: 1 1 175px;
+  margin: 5px;
+}
+
+.music-albums-item h2{
+  font-size: 2em;
+  color: #796362;
+  background: #f7f7f7f7;
+  padding: 60px 10px;
+}
+
+.album2 h2{
+  padding: 38.5px 10px;
+}
+
+.music-albums-item p{
+  font-size: 1em;
+  color: #8d7877;
+  background: #f7f7f7f7;
+  padding: 0 10px;
+}
+
+.album1 {
+  border-top: 8px solid #E8CBC8;
+}
+
+.album2 {
+  border-top: 8px solid #515151;
+}
+
+.album3 {
+  border-top: 8px solid #CDC1A8;
+}
+
+.album4 {
+  border-top: 8px solid #E4A764;
+}
+
+/* ESTILIZAÇÃO DO EFEITO DE EVIDENCIAR */
+.music-albums-item {
+  transition: transform 0.2s ease; /* Adiciona uma transição suave ao aplicar a transformação */
+}
+
+/* VEJA - VIDEO DO YOUTUBE */
+.video-section {
+  background: #4C3A39;
+  padding: 60px;
+}
+
+.video-section h1{
+  padding: 0 120px;
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.youtube-video {
+  max-width: 560px;
+  margin: 10px auto;
+}
+
+
+/* ESCUTE */
+.listen-spotify{
+  background: #F9B757;
+  padding: 60px;
+}
+
+.spotify{
+  max-width: 960px;
+  margin: 10px auto;
+
+}
+
+.listen-spotify h1{
+  padding: 0 120px;
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+/* NEWSLETTER */
+.newsletter{
+  background: white;
+  padding: 60px calc((100% - 960px)/2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info{
+  flex: 1 1 200px;
+  margin: 0 10px;
+}
+
+.newsletter-info h1{
+  font-size: 3em;
+  color: #9E5A41;
+}
+
+.newsletter-info p{
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 230px;
+  color: #CEC7C0;
+  margin-bottom: 10px;
+}
+
+.newsletter-form{
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input{
+  flex: 3 1 200px;
+  font-size: 1.25em;
+  color: #7a7671;
+  font-style: italic;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  border: 4px solid #F9B757;
+  background: transparent;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;
+  outline: none;
+}
+
+.newsletter-form button{
+  flex: 1 1 200px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #F9B757;
+  color: white;
+  cursor: pointer;
+  margin: 0px;
+  border: 0px;
+}
+
+@media(max-width: 600px){
+  .newsletter-form button{
+    font-size: 1.5em;
+  }
+}
+
+/* FOOTER */
+.footer{
+  background: #342828;
+}
+
+.footer p{
+  color: #E4A764;
+  margin-left: 15%;
+}
