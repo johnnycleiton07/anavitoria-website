@@ -4,10 +4,17 @@
 
 <section>
   <h2>Descrição do Projeto</h2>
-  <p><em>Simples website produzido como prática do uso de CSS Flexbox.</em></p>
+  <p>HTML, CSS, JAVASCRIPT</p>
+  <p>Simples website produzido como prática do uso de CSS Flexbox.</p>
 </section>
 
-<div align="center">
-  <img height="400" alt="anavitoria-website" src="assets-readme/anavitoria-site.gif">
-  <p><em>O site pode ser visualizado <a href="https://anavitoria-website.vercel.app/">aqui</a>. (OBS: não está responsivo)</em></p>
-</div>
+<section>
+  <div align="center">
+    <img height="400" alt="anavitoria-website" src="assets-readme/anavitoria-site.gif">
+  </div>
+</section>
+
+<section>
+  <h2>Deploy</h2>
+  <p>https://anavitoria-website.vercel.app/</p>
+</section>
