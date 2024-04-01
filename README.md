@@ -16,5 +16,5 @@
 
 <section>
   <h2>Deploy</h2>
-  <p>https://anavitoria-website.vercel.app/</p>
+  <p><a href="https://anavitoria-website.vercel.app/" target="_blank">anavitoria-website.vercel.app</p>
 </section>
